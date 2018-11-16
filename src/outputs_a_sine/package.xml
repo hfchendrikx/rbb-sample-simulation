@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package>
+  <name>outputs_a_sine</name>
+  <version>1.0.0</version>
+  <description>Outputs some waves to a "gyro" topic</description>
+  <maintainer email="hhendrik@student.ethz.ch">Huub</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>

@@ -1,0 +1,6 @@
+<launch>
+    <node name="sine_wave" pkg="outputs_a_sine" type="sine_wave" output="screen">
+        <param name="frequency" type="double" value="$(env FREQUENCY)" />
+    </node>
+    <node pkg="rosbag" type="record" name="rosbag_record_pip" output="screen" args="-O $(env BAG_NAME) -a"/>
+</launch>
